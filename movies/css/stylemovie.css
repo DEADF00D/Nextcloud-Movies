@@ -1,0 +1,48 @@
+#app{
+	background-color:#111;
+	width:100%;
+}
+
+#movielist{
+    margin-top:15px;
+    margin-left:15px;
+    overflow-y: auto;
+}
+
+.movie-container{
+	position: relative;
+	top:0;
+
+    width:calc(20% - 10px);
+    display:inline-block;
+
+	margin-right:10px;
+    margin-bottom:10px;
+}
+
+.movie-container .movie{
+    width:100%;
+}
+
+.movie .movie-body{
+	position:absolute;
+	top:0;
+	left:0;
+
+    padding: 20px;
+    height:100%;
+    background: rgba(0,0,0,0.8);
+
+	overflow-y:auto;
+}
+
+.movie .movie-image img{
+	width:100%;
+	height:auto;
+}
+
+.movie .movie-body .movie-content{
+    position:relative;
+    color: white;
+	overflow-wrap: break-word;
+}

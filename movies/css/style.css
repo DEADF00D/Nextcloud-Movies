@@ -1,0 +1,52 @@
+.title{
+    color: white !important;
+    margin-bottom:0;
+}
+.releasedate{
+    color: #bbb;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+.runtime{
+    margin-top:20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.icon-loading{
+    width:50px;
+    height:50px;
+    margin:auto;
+}
+
+.userscore{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.userscore-bad{
+    background-color: #b71c1c;
+}
+.userscore-badbb{
+    background-color: #F44336;
+}
+.userscore-medium{
+    background-color: #e65100;
+}
+.userscore-mediumbb{
+    background-color: #ff9800;
+}
+.userscore-good{
+    background-color: #4caf50;
+}
+.userscore-goodbb{
+    background-color: #1b5e20;
+}
+.userscore-awesome{
+    background-color: #03a9f4;
+}

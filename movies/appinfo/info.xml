@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>movies</id>
+    <name>Movies</name>
+    <summary>Watch movies, and get reviews on it.</summary>
+    <description><![CDATA[]]></description>
+    <version>0.0.2</version>
+    <licence>agpl</licence>
+    <author mail="mm.didelot@deadf00d.com" >Didelot Maurice-Michel</author>
+    <namespace>Movies</namespace>
+    <category>tools</category>
+    <bugs>https://www.deadf00d.com</bugs>
+    <dependencies>
+        <nextcloud min-version="18" max-version="18"/>
+        <lib>curl</lib>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Movies</name>
+            <route>movies.page.index</route>
+        </navigation>
+    </navigations>
+</info>

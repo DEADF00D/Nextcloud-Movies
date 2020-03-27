@@ -1,0 +1,15 @@
+{
+    "name": "Movies",
+    "description": "Watch movies, and get reviews on it.",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Didelot Maurice-Michel"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

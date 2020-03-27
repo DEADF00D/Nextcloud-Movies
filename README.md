@@ -2,7 +2,7 @@
 
 **/!\\ This app is not finished, and at his current point of development, still a concept. /!\\**
 
-A small Nextcloud app to watch movies, that feature a better video player (based on [plyr](https://plyr.io/)), automatically parse movies filename to retrieve information from TheMovieDB ([TMDb](https://www.themoviedb.org/?language=fr)). It use [parse-torrent-name-php](https://github.com/DEADF00D/parse-torrent-name-php) for movie filename parsing, and a custom TMDb wrapper for information retrieving (`TMDb.php`).
+A small Nextcloud app to watch movies, that feature a better video player (based on [plyr](https://plyr.io/)), and an automatic way of retrieving of information from TheMovieDB ([TMDb](https://www.themoviedb.org/?language=fr)) by parsing movies filename. It use [parse-torrent-name-php](https://github.com/DEADF00D/parse-torrent-name-php) for movie filename parsing, and a custom TMDb wrapper for information retrieving (`TMDb.php`).
 
 ## Features
 
